@@ -1,0 +1,12 @@
+module.exports = function() {
+    //////////////////////////////// GET ////////////////////////////////
+    require('./GET/index.js')(this);
+    require('./GET/login.js')(this);
+    require('./GET/panel.js')(this);
+    //////////////////////////////// POST ////////////////////////////////
+    require('./POST/login.js')(this);
+    require('./POST/panel.js')(this);
+
+    //////////////////////////////// API ////////////////////////////////
+    require('./api.js')(this);
+};

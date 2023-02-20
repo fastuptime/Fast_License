@@ -1,0 +1,93 @@
+<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+    <div class="app-brand demo">
+      <a href="/panel" class="app-brand-link">
+        <span class="app-brand-logo demo">
+        </span>
+        <span class="app-brand-text demo menu-text fw-bolder ms-2" style="font-size: 1.5rem; text-transform: uppercase;"><%= site.name %> </span>
+      </a>
+
+      <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+        <i class="bx bx-chevron-left bx-sm align-middle"></i>
+      </a>
+    </div>
+
+    <div class="menu-inner-shadow"></div>
+
+    <ul class="menu-inner py-1">
+      <!-- Dashboard -->
+      <li class="menu-header small text-uppercase">
+        <span class="menu-header-text">Dashboard</span>
+      </li>
+
+      <!-- Lisanslar -->
+
+      <li class="menu-item" id="panel">
+        <a href="/panel" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-home-circle"></i>
+          <div data-i18n="Lisanslar">Lisanslar</div>
+        </a>
+      </li>
+
+      <!-- Lisans ekle -->
+      <li class="menu-item" id="logout">
+        <a href="/create_license" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-plus-circle"></i>
+          <div data-i18n="Lisans Ekle">Lisans Ekle</div>
+        </a>
+      </li>
+      
+      <!-- Lisans Sorgulama -->
+      <li class="menu-item" id="logout">
+        <a href="/license_check" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-search"></i>
+          <div data-i18n="Lisans Sorgula">Lisans Sorgula</div>
+        </a>
+      </li>
+
+      <!-- Script Ekle -->
+      <li class="menu-item" id="logout">
+        <a href="/create_script" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-code"></i>
+          <div data-i18n="Script Ekle">Script Ekle</div>
+        </a>
+      </li>
+
+      <!-- İhbarlar -->
+      <li class="menu-item" id="panel">
+        <a href="/reports" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-bell"></i>
+          <div data-i18n="İhbarlar">İhbarlar</div>
+        </a>
+      </li>
+
+      <!-- HESAP -->
+      <li class="menu-header small text-uppercase">
+        <span class="menu-header-text">Hesap</span>
+      </li>
+      <!-- ÇIKIŞ -->
+      <li class="menu-item" id="logout">
+        <a href="/logout" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-log-out"></i>
+          <div data-i18n="Çıkış Yap">Çıkış Yap</div>
+        </a>
+      </li>
+      <script>
+        function re() {
+          var url = window.location;
+          document.querySelectorAll('.menu-item').forEach(function (element) {
+            if (element.querySelector('a').href == url) {
+              element.classList.add('active');
+            } else {
+              element.classList.remove('active');
+            }
+          });
+        }
+
+        re();
+
+        setInterval(function () {
+          re();
+        }, 2 * 1000);
+      </script>
+    </ul>
+  </aside>

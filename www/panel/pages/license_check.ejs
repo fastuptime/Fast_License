@@ -1,0 +1,80 @@
+<%- include('./include/head.ejs', { site, page_name }) %>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+        <%- include('./include/aside.ejs', { site }) %>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+          <%- include('./include/navbar.ejs', { user }) %>
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Dashboard / </span> Lisans Sorgula</h4>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card mb-4">
+                    <h5 class="card-header">Lisans Sorgula</h5>
+                    <div class="card-body">
+                      <form id="formAccountSettings" action="/license_check" method="POST">
+                        <div class="row">
+                          <div class="mb-3 col-md-12">
+                            <label for="domain" class="form-label">Domain (Örnek: example.com)</label>
+                            <input type="text" class="form-control" id="domain" name="domain" placeholder="Domain" required>
+                          </div>
+
+                          <div class="mb-3 col-md-12">
+                            <label for="license" class="form-label">Script</label>
+                            <select class="form-select" id="script" name="script" required>
+                              <% if (scripts.length == 0) { %>
+                                <option value="0">Script bulunamadı.</option>
+                              <% } %>
+                              <% scripts.forEach(x => { %>
+                                <option value="<%= x._id %>"><%= x.name %></option>
+                              <% }); %>
+                            </select>
+                          </div>
+
+                          <% if (scripts.length != 0) { %>
+                            <div class="mt-2">
+                              <button type="submit" class="btn btn-primary col-12 mb-3" id="submit">Sorgula
+                            </div>
+                          <% } else { %>
+                            <p>
+                              <a href="/create_script" class="btn btn-primary col-12 mb-3">Script Oluştur</a>
+                            </p>
+                          <% } %>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- / Content -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+<%- include('./include/footer.ejs', { site }) %>
