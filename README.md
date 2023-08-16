@@ -1,7 +1,7 @@
 # Fast_License
-FAST LICENSE Web Site Lisanslama Yazılımı NodeJs
+FAST LICENSE Web Site Lisanslama Yazılımı NodeJs / FAST LICENSE Website Licensing Software NodeJs
 
-## Resimler
+# 🎈 Images 🎈
 
 ![image](https://user-images.githubusercontent.com/63351166/220187115-4bde7f0b-a35a-4286-b3cb-f20b3187ea60.png)
 ![image](https://user-images.githubusercontent.com/63351166/220187288-201ab269-df9a-4628-8d60-9289cd58835d.png)
@@ -12,12 +12,12 @@ FAST LICENSE Web Site Lisanslama Yazılımı NodeJs
 ![image](https://user-images.githubusercontent.com/63351166/220187432-544e664e-40f1-417e-a1b9-2fea97e60e7a.png)
 ![image](https://user-images.githubusercontent.com/63351166/220187457-41a25f98-0eb3-45fc-b5a2-97dafc0c3f95.png)
 
-## Ek Olarak
+## In addition
 
-- Tanıtım Videosu: https://www.youtube.com/watch?v=_xmbr2mDISw&ab_channel=FastUptime
-- Yeterli sayıda star olur ise scripte bir kaç güncelleme daha yapabilirim.
+- Introduction Video: https://www.youtube.com/watch?v=_xmbr2mDISw&ab_channel=FastUptime
+- If there are enough stars, I can make a few more updates to the script.
 
-## Lisans Kontrol İçin
+## For Licence Control
 
 ```
 curl --location --request POST 'http://alanadiniz.com/api/v1' \
@@ -832,17 +832,19 @@ echo $response;
  ┗ 📜package.json
 ```
 
-## Tech Stack
+## ⛳Tech Stack ⛳
 
-**Server:** Node, Fs, Express, Colors, Moment, MongoDB, Mongoose
+**🗄️Server:** Node, Fs, Express, Colors, Moment, MongoDB, Mongoose
 
 ---
-- ✨ [Destek İçin](https://fastuptime.com) <br>
+- ✨ [For Support](https://github.com/sponsors/fastuptime) <br>
 - 💕 [Discord](https://fastuptime.com/discord)<br>
-- 🎖️ [FasterHost Technology](https://fasterhost.tech/)<br>
-- ✨ İletişim için [Tıkla!](mailto:fastuptime@gmail.com)<br>
+- 🏓 [Fast Uptime](https://fastuptime.com/)<br>
+- 🪄 All kinds of projects are made <br>
+- 🧨 You can contact us to make a paid project<br>
+- ☄️ [Click For Contact](mailto:fastuptime@gmail.com)<br>
 
-# License
-- Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
+# 🎯 License 🎯
+- ⚖️ Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="BYNCSA40"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a>
