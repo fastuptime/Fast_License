@@ -20,6 +20,7 @@ FAST LICENSE Web Site Lisanslama Yazılımı NodeJs / FAST LICENSE Website Licen
 ## For Licence Control
 
 ```
+
 curl --location --request POST 'http://alanadiniz.com/api/v1' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'domain=domain.com' \
