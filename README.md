@@ -1,6 +1,8 @@
 # Fast_License
 FAST LICENSE Web Site Lisanslama Yazılımı NodeJs / FAST LICENSE Website Licensing Software NodeJs
 
+✨ [Administration Panel for Licensing C# Projects](https://github.com/fastuptime/Fast_License_C_Sharp_PANEL) ✨
+
 # 🎈 Images 🎈
 
 ![image](https://user-images.githubusercontent.com/63351166/220187115-4bde7f0b-a35a-4286-b3cb-f20b3187ea60.png)
