@@ -1,3 +1,8 @@
+# ✨ SPEEDSMM VERSIYON 5 YAYINDA 1 AYLIK UCRETSIZ KULLANIM ICIN [TIKLA](https://speedsmm.com) ✨
+
+# ✨ SPEEDSMM VERSION 5 IS LIVE FOR 1 MONTH FREE USE [CLICK](https://speedsmm.com) ✨
+
+
 # Fast_License
 FAST LICENSE Web Site Lisanslama Yazılımı NodeJs / FAST LICENSE Website Licensing Software NodeJs
 
